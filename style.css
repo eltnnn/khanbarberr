@@ -1,0 +1,390 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-image: url(../img/videoblocks-mens-beauty-and-health-concept-various-shaving-and-bauty-care-accessories-placed-on-black-background-with-shaver-brush-cream-towel-and-other-top-view-flat-lay-with-copy-space.png);
+    background-size: cover;
+    background-position: center;
+    color: white; 
+    padding: 20px 0;
+}
+header img {
+    width: 150px;
+}
+
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+} 
+
+nav a {
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s;
+}
+
+nav a:hover {
+    border-bottom: 2px solid goldenrod;
+}
+
+ul.nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: goldenrod;
+}
+
+main {
+    padding: 20px;
+}
+
+.section-about {
+    background-color: #f8f8f8;
+    padding: 40px;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-about h2 {
+    color: #333; 
+    font-size: 36px;
+
+}
+
+
+.section-about p {
+    color: #555; 
+    font-size: 18px;
+}
+
+.section-map {
+    background-color: #fff;
+    text-align: center;
+    padding: 40px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+iframe {
+    border: 2px solid #ddd; 
+    border-radius: 8px; 
+}
+
+.section-map__title {
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #333;
+}
+.line {
+    height: 2px;
+    background-color: goldenrod;
+    width: 100%;
+    margin: 20px 0;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+.social-icons {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
+
+.section-price-list {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+.price-list {
+    font-family: 'Open Sans', sans-serif;
+    list-style-type: none;
+    padding: 0;
+}
+
+.price-list-item {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price-list-item:last-child {
+    border-bottom: none;
+}
+
+.price-item-title {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.price-item-price {
+    color: goldenrod;
+    font-size: 24px;
+}
+
+
+
+.barber img {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.section-barbers {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 40px;
+}
+
+.barber {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    transition: transform 0.3s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid goldenrod; 
+    padding-bottom: 20px; 
+
+}
+
+.barber:hover {
+    transform: scale(1.05); 
+}
+
+.barber h4 {
+    color: #333; 
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.barber p {
+    color: #555; 
+    font-size: 16px;
+    max-width: 400px;
+    margin-right: 20px;
+}
+
+
+.section-footer .social-icons {
+    margin: 0;
+}
+
+.section-footer .social-icons img {
+    width: 40px;
+    height: 40px;
+}
+
+
+.our-barbers-title {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    color: #333;
+    margin: 40px 0;
+}
+ html, body { 
+    scroll-behavior: smooth;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-img {
+    width: 150px;
+}
+
+.logo-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    color: goldenrod;
+    margin-left: 20px;
+    display: flex; 
+    flex-direction: column; 
+}
+
+
+.logo-text span {
+    margin-bottom: -5px; 
+}
+
+
+
+
+.section-barbershop-info {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px; 
+}
+
+
+.section-barbershop-info h2 {
+    color: #333; 
+}
+
+.section-barbershop-info p {
+    margin: 10px 0; 
+    font-size: 18px; 
+}
+
+
+.social-icons {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: center; }
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s, filter 0.3s; 
+    margin: 0 10px; 
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+ 
+}
+
+.social-label {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px; 
+}
+
+.social-icons img:last-child {
+    margin-right: 0; 
+}
+
+
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 10px 0;
+    }
+
+    .logo-img {
+        width: 100px;
+    }
+
+    nav {
+        padding: 5px 0;
+    }
+
+    a {
+        font-size: 16px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .section-about,
+    .section-barbershop-info,
+    .section-map,
+    .section-price-list,
+    .section-barbers,
+    footer {
+        padding: 20px;
+    }
+
+    .section-map__title,
+    .line {
+        font-size: 24px;
+    }
+
+    iframe {
+        width: 100%;
+        height: 300px;
+    }
+
+    .barber {
+        flex-direction: column;
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+.barber img {
+        max-width: 100%;
+    }
+
+    .social-icons img {
+        width: 30px;
+        height: 30px;
+        margin: 0 5px;
+    }
+
+    .our-barbers-title {
+        font-size: 24px;
+        margin: 20px 0;
+    }
+
+    .price-list-item {
+        padding: 15px;
+    }
+}
